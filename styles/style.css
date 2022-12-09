@@ -124,15 +124,12 @@
 
 .two-columns__paragraph {
   margin: 0;
+  margin-bottom: 30px;
   font-size: 24px;
   line-height: 34px;
 }
 
-.two-columns__item {
-  margin-bottom: 30px;
-}
-
-.two-columns__item:last-child {
+.two-columns__paragraph:last-child {
   margin-bottom: 0;
 }
 
@@ -281,6 +278,7 @@
   margin-top: 80px;
   z-index: 3;
 }
+
 .kaufman__triangle {
   position: absolute;
   width: 877px;
@@ -300,7 +298,6 @@
   margin: 0;
   min-height: 350px;
   background-color: #1f1f1f;
-  color:  white;
 }
 
 .footer__columns {
@@ -310,6 +307,10 @@
   margin-top: 60px;
   margin-bottom: 40px;
   justify-content: space-between;
+}
+
+.footer__column {
+  color: white;
 }
 
 .footer__column_content_copyright {
@@ -370,12 +371,10 @@
 .footer__column-link {
   text-decoration: none;
   color: white;
-  height: 16px;
   width: 16px;
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
-  margin-bottom: 50px;
 }
 
 .footer__social-icon {
